@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Philipp Schroeder"
-  avatar           : "/images/staffpage.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/staffpage.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Post-doctoral researcher at the Department of Law at Umeå University"
   location         : "Umeå, SE"
   email            :
