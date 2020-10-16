@@ -95,13 +95,13 @@ analytics:
 author:
   name             : "Philipp Schroeder"
   avatar           : "/images/staffpage.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Post-doctoral researcher at the Department of Law at Umeå University"
+  bio              : "Post-doctoral researcher at the Department of Law at Umeå University."
   location         : "Umeå, SE"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:philipp.schroeder@umu.se"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
