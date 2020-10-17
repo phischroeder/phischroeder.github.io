@@ -3,4 +3,4 @@ title: "CV"
 permalink: /cv/
 ---
 
-<iframe src="https://github.com/phischroeder/phischroeder.github.io/blob/master/files/CV.pdf" width="100%" height="800em"></iframe>
+you can [get the PDF]({{https://phischroeder.github.io/}}/assets/CV.pdf) directly.
