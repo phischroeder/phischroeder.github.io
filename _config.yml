@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Philipp Schroeder"
   avatar           : "/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Postdoctoral researcher at the Department of Law at Umeå University."
+  bio              : "Postdoctoral researcher at the <a style='color: black;' style='text-decoration: underline;' href='https://www.umu.se/en/department-of-law/'>Department of Law</a> at Umeå University."
   location         : "Umeå, SE"
   email            :
   links:
