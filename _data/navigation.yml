@@ -10,6 +10,8 @@ main:
     url: /data/
   - title: "CV"
     url: /cv/
+  - title: "Teaching exercise"
+    url: /exercise/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
