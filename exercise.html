@@ -1,3 +1,10 @@
+---
+layout: single
+title: Teaching exercise
+author_profile: true
+permalink: /exercise/
+---
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
@@ -140,7 +147,7 @@ b</code></pre>
 <script type="application/shiny-prerendered" data-context="server-start">
 library(learnr)
 </script>
- 
+
 <script type="application/shiny-prerendered" data-context="server">
 learnr:::register_http_handlers(session, metadata = NULL)
 </script>
@@ -149,7 +156,7 @@ learnr:::register_http_handlers(session, metadata = NULL)
 <script type="application/shiny-prerendered" data-context="server">
 learnr:::prepare_tutorial_state(session)
 </script>
- 
+
 <script type="application/shiny-prerendered" data-context="server">
 learnr:::i18n_observe_tutorial_language(input, session)
 </script>
@@ -160,7 +167,7 @@ session$onSessionEnded(function() {
         learnr:::event_trigger(session, "session_stop")
       })
 </script>
- 
+
 <script type="application/shiny-prerendered" data-context="server">
 `tutorial-exercise-addition-result` <- learnr:::setup_exercise_handler(reactive(req(input$`tutorial-exercise-addition-code-editor`)), session)
 output$`tutorial-exercise-addition-output` <- renderUI({
@@ -172,33 +179,33 @@ output$`tutorial-exercise-addition-output` <- renderUI({
 <script type="application/shiny-prerendered" data-context="server">
 learnr:::store_exercise_cache(structure(list(label = "addition", global_setup = structure("library(learnr)", chunk_opts = list(
     label = "setup", include = FALSE)), setup = NULL, chunks = list(
-    list(label = "addition", code = "1 + 1", opts = list(label = "\"addition\"", 
-        exercise = "TRUE"), engine = "r")), code_check = NULL, 
-    error_check = NULL, check = NULL, solution = NULL, tests = NULL, 
-    options = list(eval = FALSE, echo = TRUE, results = "markup", 
-        tidy = FALSE, tidy.opts = NULL, collapse = FALSE, prompt = FALSE, 
-        comment = NA, highlight = FALSE, size = "normalsize", 
-        background = "#F7F7F7", strip.white = TRUE, cache = 0, 
-        cache.path = "learnr_tutorial_cache/html/", cache.vars = NULL, 
-        cache.lazy = TRUE, dependson = NULL, autodep = FALSE, 
-        cache.rebuild = FALSE, fig.keep = "high", fig.show = "asis", 
-        fig.align = "default", fig.path = "learnr_tutorial_files/figure-html/", 
-        dev = "png", dev.args = NULL, dpi = 192, fig.ext = "png", 
-        fig.width = 6.5, fig.height = 4, fig.env = "figure", 
-        fig.cap = NULL, fig.scap = NULL, fig.lp = "fig:", fig.subcap = NULL, 
-        fig.pos = "", out.width = 624, out.height = NULL, out.extra = NULL, 
-        fig.retina = 2, external = TRUE, sanitize = FALSE, interval = 1, 
-        aniopts = "controls,loop", warning = TRUE, error = FALSE, 
-        message = TRUE, render = NULL, ref.label = NULL, child = NULL, 
-        engine = "r", split = FALSE, include = TRUE, purl = TRUE, 
-        max.print = 1000, label = "addition", exercise = TRUE, 
-        code = "1 + 1", out.width.px = 624, out.height.px = 384, 
-        params.src = "addition, exercise=TRUE", fig.num = 0, 
-        exercise.df_print = "paged", exercise.checker = "NULL"), 
+    list(label = "addition", code = "1 + 1", opts = list(label = "\"addition\"",
+        exercise = "TRUE"), engine = "r")), code_check = NULL,
+    error_check = NULL, check = NULL, solution = NULL, tests = NULL,
+    options = list(eval = FALSE, echo = TRUE, results = "markup",
+        tidy = FALSE, tidy.opts = NULL, collapse = FALSE, prompt = FALSE,
+        comment = NA, highlight = FALSE, size = "normalsize",
+        background = "#F7F7F7", strip.white = TRUE, cache = 0,
+        cache.path = "learnr_tutorial_cache/html/", cache.vars = NULL,
+        cache.lazy = TRUE, dependson = NULL, autodep = FALSE,
+        cache.rebuild = FALSE, fig.keep = "high", fig.show = "asis",
+        fig.align = "default", fig.path = "learnr_tutorial_files/figure-html/",
+        dev = "png", dev.args = NULL, dpi = 192, fig.ext = "png",
+        fig.width = 6.5, fig.height = 4, fig.env = "figure",
+        fig.cap = NULL, fig.scap = NULL, fig.lp = "fig:", fig.subcap = NULL,
+        fig.pos = "", out.width = 624, out.height = NULL, out.extra = NULL,
+        fig.retina = 2, external = TRUE, sanitize = FALSE, interval = 1,
+        aniopts = "controls,loop", warning = TRUE, error = FALSE,
+        message = TRUE, render = NULL, ref.label = NULL, child = NULL,
+        engine = "r", split = FALSE, include = TRUE, purl = TRUE,
+        max.print = 1000, label = "addition", exercise = TRUE,
+        code = "1 + 1", out.width.px = 624, out.height.px = 384,
+        params.src = "addition, exercise=TRUE", fig.num = 0,
+        exercise.df_print = "paged", exercise.checker = "NULL"),
     engine = "r", version = "4"), class = c("r", "tutorial_exercise"
 )))
 </script>
- 
+
 <script type="application/shiny-prerendered" data-context="server">
 `tutorial-exercise-division-result` <- learnr:::setup_exercise_handler(reactive(req(input$`tutorial-exercise-division-code-editor`)), session)
 output$`tutorial-exercise-division-output` <- renderUI({
@@ -211,28 +218,28 @@ output$`tutorial-exercise-division-output` <- renderUI({
 learnr:::store_exercise_cache(structure(list(label = "division", global_setup = structure("library(learnr)", chunk_opts = list(
     label = "setup", include = FALSE)), setup = NULL, chunks = list(
     list(label = "division", code = "9 / 3\n4 * 5", opts = list(
-        label = "\"division\"", exercise = "TRUE"), engine = "r")), 
-    code_check = NULL, error_check = NULL, check = NULL, solution = NULL, 
-    tests = NULL, options = list(eval = FALSE, echo = TRUE, results = "markup", 
-        tidy = FALSE, tidy.opts = NULL, collapse = FALSE, prompt = FALSE, 
-        comment = NA, highlight = FALSE, size = "normalsize", 
-        background = "#F7F7F7", strip.white = TRUE, cache = 0, 
-        cache.path = "learnr_tutorial_cache/html/", cache.vars = NULL, 
-        cache.lazy = TRUE, dependson = NULL, autodep = FALSE, 
-        cache.rebuild = FALSE, fig.keep = "high", fig.show = "asis", 
-        fig.align = "default", fig.path = "learnr_tutorial_files/figure-html/", 
-        dev = "png", dev.args = NULL, dpi = 192, fig.ext = "png", 
-        fig.width = 6.5, fig.height = 4, fig.env = "figure", 
-        fig.cap = NULL, fig.scap = NULL, fig.lp = "fig:", fig.subcap = NULL, 
-        fig.pos = "", out.width = 624, out.height = NULL, out.extra = NULL, 
-        fig.retina = 2, external = TRUE, sanitize = FALSE, interval = 1, 
-        aniopts = "controls,loop", warning = TRUE, error = FALSE, 
-        message = TRUE, render = NULL, ref.label = NULL, child = NULL, 
-        engine = "r", split = FALSE, include = TRUE, purl = TRUE, 
-        max.print = 1000, label = "division", exercise = TRUE, 
-        code = c("9 / 3", "4 * 5"), out.width.px = 624, out.height.px = 384, 
-        params.src = "division, exercise=TRUE", fig.num = 0, 
-        exercise.df_print = "paged", exercise.checker = "NULL"), 
+        label = "\"division\"", exercise = "TRUE"), engine = "r")),
+    code_check = NULL, error_check = NULL, check = NULL, solution = NULL,
+    tests = NULL, options = list(eval = FALSE, echo = TRUE, results = "markup",
+        tidy = FALSE, tidy.opts = NULL, collapse = FALSE, prompt = FALSE,
+        comment = NA, highlight = FALSE, size = "normalsize",
+        background = "#F7F7F7", strip.white = TRUE, cache = 0,
+        cache.path = "learnr_tutorial_cache/html/", cache.vars = NULL,
+        cache.lazy = TRUE, dependson = NULL, autodep = FALSE,
+        cache.rebuild = FALSE, fig.keep = "high", fig.show = "asis",
+        fig.align = "default", fig.path = "learnr_tutorial_files/figure-html/",
+        dev = "png", dev.args = NULL, dpi = 192, fig.ext = "png",
+        fig.width = 6.5, fig.height = 4, fig.env = "figure",
+        fig.cap = NULL, fig.scap = NULL, fig.lp = "fig:", fig.subcap = NULL,
+        fig.pos = "", out.width = 624, out.height = NULL, out.extra = NULL,
+        fig.retina = 2, external = TRUE, sanitize = FALSE, interval = 1,
+        aniopts = "controls,loop", warning = TRUE, error = FALSE,
+        message = TRUE, render = NULL, ref.label = NULL, child = NULL,
+        engine = "r", split = FALSE, include = TRUE, purl = TRUE,
+        max.print = 1000, label = "division", exercise = TRUE,
+        code = c("9 / 3", "4 * 5"), out.width.px = 624, out.height.px = 384,
+        params.src = "division, exercise=TRUE", fig.num = 0,
+        exercise.df_print = "paged", exercise.checker = "NULL"),
     engine = "r", version = "4"), class = c("r", "tutorial_exercise"
 )))
 </script>
